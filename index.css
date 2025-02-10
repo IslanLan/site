@@ -3,13 +3,24 @@ body {
     font-size: 25px;text-shadow: 0px 0px 10px black; background-attachment: fixed;
 }
 ul {display: flex;
-justify-content:space-evenly;
+justify-content:space-between;
 list-style-type: none;
-padding: 16px;}
+padding: 10px;background-color: rgba(92, 107, 102, 0.253);
+border: 2px solid rgba(178, 245, 165, 0.068);font-size: 16px; align-items: center; 
+margin-inline: 5px;margin: 0%;margin-bottom: 10px;}
+
+.navpages {padding: 0% 45px; display: flex; justify-content: space-between;text-align: center;
+list-style-type: none;margin-inline: 5px;list-style-type: none;margin-top: 10px;}
+.navpages a {margin: 5px;}
+
+
+
+
+.iconedetitulo {width: 36px;height: 36px; align-items: center;}
 
 a {color:rgb(240, 255, 241);text-decoration:none;}
-header img{width: 145px; height: 145px;border-radius: 50%;
-    border: 3px solid rgb(163, 215, 231)}
+header img{width: 140px; height: 150px;border-radius: 0%;
+    border: 5px solid rgba(178, 245, 165, 0.068);background-color: rgba(92, 107, 102, 0.253)}
 
 .picture_head{text-align: left;}
 
@@ -28,7 +39,8 @@ footer {display:flex; justify-content: center;}
 footer a {margin: 10px; text-align: center;}
 footer p {margin: 1px; font-size: 10px;}
 
-.container {padding: 0px 100px}
+.container {padding: 0px 50px}
+
 
 nav a:hover {
     color:rgb(139, 238, 114)
@@ -47,6 +59,7 @@ main {border: 2px solid rgba(178, 245, 165, 0.068);background-color: rgba(92, 10
     color: aquamarine;
 }
 .justify {text-align: justify;}
+.centertext {text-align: center;}
 
 body {
     cursor: url('./IMG/Cursor.cur'), auto;
