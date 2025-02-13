@@ -9,9 +9,9 @@ padding: 10px;background-color: rgba(92, 107, 102, 0.253);
 border: 2px solid rgba(178, 245, 165, 0.068);font-size: 16px; align-items: center; 
 margin-inline: 5px;margin: 0%;margin-bottom: 10px;}
 
-.navpages {padding: 0% 45px; display: flex; justify-content: space-between;text-align: center;
-list-style-type: none;margin-inline: 5px;list-style-type: none;margin-top: 10px;}
-.navpages a {margin: 5px;}
+.navpages {display: flex; justify-content: space-between;text-align: center;
+list-style-type: none;margin-inline: 5px;list-style-type: none;margin-top: 10px;margin-left: 0px;}
+.navpages a {margin: 10px;}
 
 
 
@@ -69,12 +69,11 @@ a, button {
     cursor: url('./IMG/Cursor.cur'), pointer;
 }
 
-.containerflex {flex-direction:column;display:  flex;}
-.p1 {display: flex;background-color: rgba(92, 107, 102, 0.253);
-    ;
-    align-items: center;flex: 1;width: 100%; justify-content: flex-start}
+.containerflex {display:flow-root}
+.p1 {display: flex;background-color: rgba(92, 107, 102, 0.253);align-items: center;flex: 1;width: 100%
+}
 
-.paddingtop1
+.paddingtop1 {margin-top: 20px;}
 
 .rolld {display:inline;background-color: rgba(92, 107, 102, 0.253);
     border: 2px solid rgba(178, 245, 165, 0.068);
@@ -85,11 +84,12 @@ border: 2px solid rgba(178, 245, 165, 0.068);
 align-items: center;flex: 1; justify-content: flex-start}
 
 .tp0 {text-align: center;margin: 0%; justify-content: flex-start;
-font-family: Arial, Helvetica, sans-serif;
-}
+font-family: Arial, Helvetica, sans-serif;word-wrap: break-word;text-shadow: 0px 0px 10px black;
+font-size: 20px;}
 
 .ip1 {text-align: center; width: 80px; height: 80px;}
-.flag {text-align: center; width: 40px; height: 40px;}
+.ip2 {text-align: center; width: 40px; height: 40px;padding-right: 40px;opacity: 0%;}
+
 
 .tp2 {text-align: center;margin: 0%; justify-content: flex-start;
     font-family:Arial, Helvetica, sans-serif;
@@ -97,3 +97,12 @@ font-family: Arial, Helvetica, sans-serif;
 
 .alert {background-color: rgba(255, 22, 22, 0.178); border:rgb(255, 0, 0);}
 .alertp {background-color: rgba(255, 0, 0, 0.514); border:rgb(255, 0, 0);text-align: center;}
+
+.alertg {background-color: rgba(22, 255, 22, 0.178); border:rgb(0, 255, 55);}
+.alertpg {background-color: rgba(0, 255, 21, 0.514); border:rgb(9, 255, 0);text-align: center;}
+
+section p :hover {
+    color:rgb(139, 238, 114)
+}
+
+.downcenter {display: flex;}
