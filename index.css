@@ -68,3 +68,32 @@ body {
 a, button {
     cursor: url('./IMG/Cursor.cur'), pointer;
 }
+
+.containerflex {flex-direction:column;display:  flex;}
+.p1 {display: flex;background-color: rgba(92, 107, 102, 0.253);
+    ;
+    align-items: center;flex: 1;width: 100%; justify-content: flex-start}
+
+.paddingtop1
+
+.rolld {display:inline;background-color: rgba(92, 107, 102, 0.253);
+    border: 2px solid rgba(178, 245, 165, 0.068);
+    align-items: center;flex: 1;width: 100%; justify-content: flex-start}
+
+.namep {display: flex;background-color: rgba(92, 107, 102, 0.253);
+border: 2px solid rgba(178, 245, 165, 0.068);
+align-items: center;flex: 1; justify-content: flex-start}
+
+.tp0 {text-align: center;margin: 0%; justify-content: flex-start;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.ip1 {text-align: center; width: 80px; height: 80px;}
+.flag {text-align: center; width: 40px; height: 40px;}
+
+.tp2 {text-align: center;margin: 0%; justify-content: flex-start;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;}
+
+.alert {background-color: rgba(255, 22, 22, 0.178); border:rgb(255, 0, 0);}
+.alertp {background-color: rgba(255, 0, 0, 0.514); border:rgb(255, 0, 0);text-align: center;}
