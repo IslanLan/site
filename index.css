@@ -1,19 +1,15 @@
 body {
-    background-image:url(f.jpg);color:aliceblue;font-family:Arial, Helvetica, sans-serif;
+    background-image:url(./IMG/background.png);color:aliceblue;font-family:Arial, Helvetica, sans-serif;
     font-size: 25px;text-shadow: 0px 0px 10px black; background-attachment: fixed;
 }
 ul {display: flex;
-justify-content:space-between;
+justify-content:center;
 list-style-type: none;
 padding: 10px;background-color: rgba(92, 107, 102, 0.253);
 border: 2px solid rgba(178, 245, 165, 0.068);font-size: 16px; align-items: center; 
 margin-inline: 5px;margin: 0%;margin-bottom: 10px;}
 
-.navpages {display: flex; justify-content: space-between;text-align: center;
-list-style-type: none;margin-inline: 5px;list-style-type: none;margin-top: 10px;margin-left: 0px;}
-.navpages a {margin: 10px;}
-
-
+ul li a {padding-left: 10px;padding-right: 10px;}
 
 
 .iconedetitulo {width: 36px;height: 36px; align-items: center;}
@@ -39,14 +35,14 @@ footer {display:flex; justify-content: center;}
 footer a {margin: 10px; text-align: center;}
 footer p {margin: 1px; font-size: 10px;}
 
-.container {padding: 0px 50px}
+.container {padding: 0px 20px}
 
 
 nav a:hover {
     color:rgb(139, 238, 114)
 }
 
-main {border: 2px solid rgba(178, 245, 165, 0.068);background-color: rgba(92, 107, 102, 0.253);padding: 0% 4%;}
+main {border: 2px solid rgba(178, 245, 165, 0.068);background-color: rgba(92, 107, 102, 0.253);padding: 0% 4%;border-radius: 1%;}
 
 .sp {text-align: center;}
 
