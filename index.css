@@ -7,7 +7,8 @@ justify-content:center;
 list-style-type: none;
 padding: 10px;background-color: rgba(92, 107, 102, 0.253);
 border: 2px solid rgba(178, 245, 165, 0.068);font-size: 16px; align-items: center; 
-margin-inline: 5px;margin: 0%;margin-bottom: 10px;}
+margin-inline: 5px;margin: 0%;margin-bottom: 10px;
+border-top-left-radius: 15px;border-bottom-right-radius: 15px;}
 
 ul li a {padding-left: 10px;padding-right: 10px;}
 
@@ -16,7 +17,8 @@ ul li a {padding-left: 10px;padding-right: 10px;}
 
 a {color:rgb(240, 255, 241);text-decoration:none;}
 header img{width: 140px; height: 150px;border-radius: 0%;
-    border: 5px solid rgba(178, 245, 165, 0.068);background-color: rgba(92, 107, 102, 0.253)}
+    border: 5px solid rgba(178, 245, 165, 0.068);background-color: rgba(92, 107, 102, 0.253);
+border-top-right-radius: 15px;border-bottom-left-radius: 15px;}
 
 .picture_head{text-align: left;}
 
@@ -102,3 +104,4 @@ section p :hover {
 }
 
 .downcenter {display: flex;}
+
